@@ -75,7 +75,7 @@ data/ | notebooks/ | sql/ | dashboard/ | images/
 
 ## 📸 Dashboard Preview
 
-![Sales Dashboard](images/dashboard_sales_monitoring.png)
+![Sales Monitroing Dashboard](Power%20BI/dashboard_sales_monitoring.png)
 ![Alert Dashboard](images/dashboard_alert_risk.png)
 
 ---
