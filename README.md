@@ -1,130 +1,88 @@
 # 📊 E-Commerce Sales Monitoring & Alert System
 
-## 🔍 Project Overview
+## 🔍 Overview
 
-An end-to-end data analytics project designed to monitor sales performance and detect business risks in real time.
-
-This project integrates **SQL, Python, and Power BI** to build a complete pipeline for data analysis, visualization, and automated alert generation.
-
----
-
-## 🎯 Objective
-
-* Monitor sales performance (Revenue, Profit, Units Sold)
-* Identify top and underperforming products
-* Analyze demand patterns and forecast gaps
-* Evaluate pricing and competitor impact
-* Optimize inventory management
-* Build interactive dashboards for decision-making
-* Develop an automated alert system for risk detection
+An end-to-end data analytics project to monitor sales performance and detect business risks using SQL, Python, and Power BI.
 
 ---
 
 ## ⚠️ Problem Statement
 
-Businesses often lack real-time visibility into sales performance and struggle to detect critical issues such as revenue drops, demand fluctuations, and pricing inefficiencies.
-
-Without automated alerts, these problems are identified too late, resulting in revenue loss and poor decision-making.
-
-This project solves these challenges by providing a centralized monitoring system with real-time insights and alert mechanisms.
+Businesses often lack real-time visibility into sales performance and fail to detect issues like revenue drops, demand gaps, and pricing inefficiencies on time.
+This project solves this by building a centralized dashboard with an automated alert system for proactive decision-making.
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🎯 Objective
 
-* **SQL** → Data extraction & transformation
-* **Python (Pandas, EDA)** → Data cleaning & analysis
-* **Power BI** → Dashboard & visualization
-* **DAX** → KPI & alert logic
+* Track Revenue, Profit, and Sales performance
+* Identify top & low-performing products
+* Analyze demand gaps and pricing impact
+* Build an automated alert system for risk detection
+
+---
+
+## 🛠️ Tools Used
+
+* Python (Pandas, EDA)
+* SQL (MySQL)
+* Power BI (Dashboard & DAX)
 
 ---
 
 ## 📈 Dashboard Features
 
-### 🔹 Sales Monitoring Dashboard
+### 🔹 Sales Monitoring
 
-* KPIs: Total Revenue, Profit, Units Sold, Profit Margin
-* Monthly Sales & Profit Trends
-* Category-wise Performance Analysis
-* Region-wise Revenue Distribution
-* Top Performing Products
-* Interactive Filters (Category, Region, Month)
-
----
+* KPIs: Revenue, Profit, Units Sold, Margin
+* Monthly Trends
+* Category & Region Analysis
+* Top Products
 
 ### 🚨 Alert & Risk Dashboard
 
 * Total Alerts & High-Risk Count
-* Revenue & Profit Change Trends
-* Alert Count by Category
-* Alert Distribution Analysis
-* Critical Alert Details Table
-* Dynamic Filters for deep analysis
+* Revenue & Profit Change
+* Alert Distribution
+* Critical Alert Details
 
 ---
 
-## 🚀 Key Features
+## 🚀 Key Highlights
 
-* Real-time Sales Monitoring
 * Demand Forecast vs Actual Analysis
-* Pricing & Competitor Impact Analysis
+* Pricing & Competitor Impact
 * Inventory Optimization Insights
 * Automated Alert System
-* Interactive Dashboard Experience
 
 ---
 
 ## 📊 Key Insights
 
-* High revenue categories may have lower profit margins
-* Demand gaps highlight forecasting issues
-* High-risk alerts are region-specific
-* Pricing variations impact demand significantly
+* High revenue ≠ high profit
+* Demand gaps indicate forecasting issues
+* Pricing impacts sales significantly
 
 ---
 
 ## 📂 Project Structure
 
 ```
-E-Commerce-Sales-Monitoring/
-│
-├── Dataset/
-├── SQL/
-├── Python_EDA/
-├── PowerBI/
-│   └── Dashboard.pbix
-├── Images/
-│   ├── Dashboard1.png
-│   └── Dashboard2.png
-└── README.md
+data/ | notebooks/ | sql/ | dashboard/ | images/
 ```
 
 ---
 
 ## 📸 Dashboard Preview
 
-(Add screenshots here after upload)
-
----
-
-## 💡 Future Improvements
-
-* ML model for risk prediction
-* Automated email alerts
-* Advanced forecasting
-* Drill-through analysis
+![Sales Dashboard](images/dashboard_sales_monitoring.png)
+![Alert Dashboard](images/dashboard_alert_risk.png)
 
 ---
 
 ## 👨‍💻 Author
 
 **Abhishek Thakre**
+SQL | Power BI | Python
+GitHub: https://github.com/AbhiThakre45
 
-* Skills: SQL | Power BI | Excel | Python
-* GitHub: https://github.com/AbhiThakre45
-
----
-
-## ⭐ Conclusion
-
-This project showcases how data analytics can be used to build a smart monitoring system that helps businesses track performance, detect risks early, and make better decisions.
